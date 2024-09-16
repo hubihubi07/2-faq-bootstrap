@@ -1,0 +1,45 @@
+.accordion-flush
+ .accordion-item
+  .accordion-button {
+    text-align: center;
+    display: inline-block;
+    background-color:rgb(240, 240, 240) ;
+}
+
+
+h2 {
+  color: grey;
+
+}
+
+hr {
+position: relative;
+  width: 30%;
+  left: 35%;
+}
+
+
+.accordion-button {
+  color: orange;
+}
+
+.accordion-button:focus {
+box-shadow: none;
+background-color: lightgray;
+}
+
+a {
+  color: orange;
+  text-decoration:none;
+  font-size: 1.1em;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: underline;
+}
+
